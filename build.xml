@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Avileap" verbose="1" allow-return-values="true" configfailurepolicy="continue">
+	
+	<test name="Tests" preserve-order="true">
+		<classes>
+			<class name="com.zestiot.avileap.qa.testrunner.TestRunner"></class>
+		</classes>
+	</test>
+</suite>
